@@ -3,6 +3,10 @@
 <head>
 	<title>My Website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<script src="scripts/lightbox-plus-jquery.min.js">
+
+	</script>
 </head>
 <body>
 	<!-- <header id="main-header">
@@ -28,14 +32,14 @@
 				<div class="navigation-bar">
 					<nav id="navbar">
 		    			<ul>
-								<li><a href="#">SiddiqMohammed</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Services</a></li>
+								<li><a href="SiddiqMohammed.com">SiddiqMohammed</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#services">Services</a></li>
 		    				<!-- <li><a href="#">Home</a></li> -->
 		    			</ul>
 							<div class="single-nav">
 								<ul>
-									<li><a href="#">Contact</a></li>
+									<li><a href="#contact">Contact</a></li>
 								</ul>
 							</div>
 		    	</nav>
@@ -44,52 +48,73 @@
 				<h1>Self made millionaire status. Used to only eat at Shonies on occasions.
 				</h1>
 	      <p>Hellloooo</p>
-				<a href="#secondsection">Click Here To Go Down</a>
+				<a href="#about">Click Here To Go Down</a>
 			</div>
 		</div>
 	</section>
 
-	<div id="secondsection" type"hidden">
+<!-- THE SECOND SECTION STARTS HERE -->
+
+	<div id="about" type"hidden">
 		<div class="container">
 			<div class="sectionHeading">
 			 <h1>my work</h1>
 			</div>
 			<section id="main-block">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>I was never the best at school or academics, I'm just a super curious guy. My channel exists to share these ideas and theories that interest me. I spend a lot of time building software and electronics, but there's also a lot more to it. I've been working on a video format to document the logic, reasoning, and problems encountered during the process of learning engineering. A combination of innovation and storytelling.</p>
 			</section>
 	    <div class="block">
-				<h3>Heading</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				</p>
+				<h3>Software Development</h3>
+				<ul>
+					<li>Java/C# Automation. CPU bound business logic</li>
+					<li>Low level/embedded IoT programming</li>
+					<li>Cloud computing, microservices, APIs, full stack web apps</li>
+				</ul>
 			</div>
 			<div class="block">
-				<h3>Heading</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				</p>
+				<h3>Electronics</h3>
+				<ul>
+					<li>Java/C# Automation. CPU bound business logic</li>
+					<li>Low level/embedded IoT programming</li>
+					<li>Cloud computing, microservices, APIs, full stack web apps</li>
+				</ul>
 			</div>
 			<div class="block">
-				<h3>Heading</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				</p>
+				<h3>Community</h3>
+				<ul>
+					<li>Java/C# Automation. CPU bound business logic</li>
+					<li>Low level/embedded IoT programming</li>
+					<li>Cloud computing, microservices, APIs, full stack web apps</li>
+				</ul>
 			</div>
+			<div class="click">
+				<a href="#services">Click Here To Go Down</a>
+			</div>
+		</div>
+	</div>
 
+<!-- THE THIRD SECTION STARTS HERE -->
+
+	<div id="services" type"hidden">
+		<div class="container">
+			<div class="gallery">
+			<a href="images/g3.jpeg" data-lightbox="mygallery" data-title="Model: Habeeb"> <img src="images/g3-ss.jpg" > </a>
+			<a href="images/g4.jpeg" data-lightbox="mygallery" data-title="Model: Habeeb"> <img src="images/g4.jpeg" > </a>
+			<a href="images/g2.jpeg" data-lightbox="mygallery" data-title="Model: Habeeb"> <img src="images/g2-s.jpg" > </a>
+			<a href="images/g1.jpeg" data-lightbox="mygallery" data-title="Model: Habeeb"> <img src="images/g1-s.jpg" > </a>
+			<a href="#"> <img src="images/IMG_20190301_163523-01.jpg" > </a>
+			<a href="#"> <img src="images/IMG_20190301_163523-01.jpg" > </a>
 
 		</div>
 	</div>
+
+
 
  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	 <script src="scripts/test.js"></script>
 
 	<footer id="main-footer">
-		<p>Copyright &copy; 2017 My Website</p>
+		<p>Copyright &copy; 2019 Siddiq Mohammed</p>
 	</footer>
 </body>
 </html>
