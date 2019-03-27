@@ -91,14 +91,27 @@ a:visited {
 	padding-top:90px;
 }
 
-#showcase li{
+#showcase li {
   text-align: right;
+}
+
+.space {
+  padding-top: 100px;
+  line-height: .0000001em;
+  text-align: center;
+}
+
+.space img {
+  max-height: 150px;
+  max-width: 200px;
+  width: 3%;
+  height: 3%;
 }
 
 /* THE SECOND SECTION STARTS HERE */
 
-#secondsection{
-  padding-top: 80px;
+#about  {
+  padding-top: 50px;
   background-color: #191919;
   text-decoration-color: white;
   height: 100%;
@@ -124,11 +137,48 @@ a:visited {
   color: #fff;
 }
 
+.block h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.45em;
+  letter-spacing: .05em;
+}
+
+.block ul{
+  font-size: .75em;
+  font-weight: 700;
+  text-align: left;
+  padding: 0 75px 0 15px;
+}
+
+
+#services {
+  padding-top: 50px;
+  background-color: #191919;
+  text-decoration-color: white;
+  height: 100%;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
 #main-block{
   color: white;
 	float:left;
 	width:100%;
-	padding: 45px 0 70px 0;
+	padding: 10px 0 70px 0;
 
 }
 
