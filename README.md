@@ -29,3 +29,9 @@ Used Lightbox for the image slideshow shince I don't know JS good enough yet. Wi
 29/3/19------------------------------------------------------------------------------------------------------------------------
 
 - added a contact form on a separate contact page
+
+30/3/19------------------------------------------------------------------------------------------------------------------------
+
+- Changed most the text fields to better reflect me and added a list of the projects done
+
+- connected the main page and the contact page together
