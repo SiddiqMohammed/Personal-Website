@@ -25,3 +25,7 @@ Used Lightbox for the image slideshow shince I don't know JS good enough yet. Wi
 - fixed the "click here button" for relative screen sizes [kinda]
 - added vw for fonts instead of px for main text areas
 - changed padding of photography section for aesthetics
+
+29/3/19------------------------------------------------------------------------------------------------------------------------
+
+- added a contact form on a separate contact page
