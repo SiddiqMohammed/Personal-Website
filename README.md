@@ -35,3 +35,9 @@ Used Lightbox for the image slideshow shince I don't know JS good enough yet. Wi
 - Changed most the text fields to better reflect me and added a list of the projects done
 
 - connected the main page and the contact page together
+
+02/3/19------------------------------------------------------------------------------------------------------------------------
+
+- made a spearate css file for the contact form page [need to add the css into a single css file later]
+
+- added an extremely basic back button on the contact form page
