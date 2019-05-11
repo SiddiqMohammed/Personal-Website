@@ -41,3 +41,15 @@ Used Lightbox for the image slideshow shince I don't know JS good enough yet. Wi
 - made a spearate css file for the contact form page [need to add the css into a single css file later]
 
 - added an extremely basic back button on the contact form page
+
+11/5/19------------------------------------------------------------------------------------------------------------------------
+
+- added bootstrap
+- website now responsive af
+- changed vw and px to rem
+- added 'view more projects' link
+- cleaned a little css
+- nav bar now runs on bootstrap so overlying classes and sections removed
+- blocks removed and instead placed container features [also bootstrap]
+- fixed footer. position now fixed
+- cleaned html as well
